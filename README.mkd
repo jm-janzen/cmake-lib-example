@@ -1,0 +1,17 @@
+# CMake Library Export/Import Example
+
+### Build and Run Instructions
+```bash
+# Navigate to build dir
+cd build
+
+# Write build files
+cmake ..
+
+# Build library, link, and build executable
+cmake --build .
+
+# Run executable
+../bin/bar
+```
+
